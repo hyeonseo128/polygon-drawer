@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정다각형 그리기</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>정다각형 그리기</h1>
+    <input type="number" id="sides" placeholder="각형 수 입력 (3 이상)" min="3">
+    <button id="draw">그리기</button>
+    <div id="diagonal-count"></div> <!-- 대각선 개수를 출력할 요소 추가 -->
+    <svg id="polygon-container" width="400" height="400"></svg>
+    <script src="script.js"></script>
+</body>
+</html>

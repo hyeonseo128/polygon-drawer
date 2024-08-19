@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+svg {
+    border: 1px solid #ccc;
+    margin-top: 50px; /* 위쪽 여백을 추가하여 위치 조정 */
+    display: block; /* 가운데 정렬을 위한 설정 */
+    margin-left: auto;
+    margin-right: auto;
+}
